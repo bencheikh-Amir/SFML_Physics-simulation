@@ -126,7 +126,7 @@ void updateBalls(std::vector<std::shared_ptr<Ball>>& balls, float deltaTime, boo
 }
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Physics Simulation", sf::Style::Close | sf::Style::Resize);
+    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Physics Simulation By Amir", sf::Style::Close | sf::Style::Resize);
 
     std::vector<std::shared_ptr<Ball>> balls;
     SpatialPartition partition(GRID_SIZE);
